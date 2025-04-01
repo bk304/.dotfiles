@@ -8,3 +8,4 @@ kitty
 wlogout
 fish
 fastfetch
+README.md
