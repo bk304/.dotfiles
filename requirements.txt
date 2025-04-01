@@ -1,0 +1,10 @@
+sway
+rofi
+nvim
+waybar
+swayr
+swaync
+kitty
+wlogout
+fish
+fastfetch
