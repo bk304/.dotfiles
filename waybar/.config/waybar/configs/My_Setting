@@ -32,7 +32,6 @@
 	"custom/swaync",
 	"custom/separator#dot-line",
 	"sway/workspaces",
-    "dwl/tags",
 	"clock",
 	"custom/separator#dot-line",
 	"idle_inhibitor",

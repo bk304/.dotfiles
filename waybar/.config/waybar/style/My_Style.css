@@ -39,6 +39,7 @@ window#waybar.empty #window {
     transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
+#tags button.occupied,
 #taskbar button,
 #workspaces button {
     color: @overlay1;
@@ -52,6 +53,7 @@ window#waybar.empty #window {
     transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
+#tags button,
 #workspaces button.empty {
     color: @surface1;
     box-shadow: none;
@@ -64,6 +66,7 @@ window#waybar.empty #window {
     transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.682);
 }
 
+#tags button.focused,
 #taskbar button.active,
 #workspaces button.focused {
     color: white;
@@ -90,6 +93,7 @@ window#waybar.empty #window {
     border-radius: 10px;
 } */
 
+#tags button.urgent,
 #workspaces button.urgent {
     color: @red;
     border-radius: 0px;
