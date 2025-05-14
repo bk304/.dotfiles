@@ -147,7 +147,7 @@
 
 "clock#5": {
     //"format": "{:%A, %I:%M %P}", // AM PM format
-    "format": "{:%a %d | %H:%M}", // 24H
+    "format": "{:%b %d | %H:%M}", // 24H
 	"format-alt": "{:%A, %d %B, %Y (%R)}",
 	"tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
 },
@@ -268,8 +268,8 @@
 "network": {
 	"format": "{ifname}",
 	"format-wifi": "{icon}",
-	"format-ethernet": "󰌘",
-	"format-disconnected": "󰌙",
+	"format-ethernet": "󰲝",
+	"format-disconnected": "󰲜",
 	"tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",
 	"format-linked": "󰈁 {ifname} (No IP)",
 	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
@@ -343,7 +343,7 @@
   "format": "{icon} {volume}%",
   "format-bluetooth": "{icon} {volume}%",
   "format-bluetooth-muted": " {icon}",
-  "format-muted": "󰸈",
+  "format-muted": "󰸈 {volume}%",
   "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -353,8 +353,8 @@
       "car": "",
       "default": ["", "", ""]
     },
-  "on-click": "pamixer --toggle-mute",
-  "on-click-right": "pavucontrol -t 3",
+  "on-click": "pavucontrol-qt -t 3",
+  "on-click-right": "pamixer --toggle-mute",
   "tooltip": true,
   "tooltip-format": "{icon} {desc} | {volume}%",
 },

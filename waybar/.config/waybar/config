@@ -1,1 +1,47 @@
-/home/bruno/.config/waybar/configs/My_Setting
+/* MY WAYBAR CONFIG FOR SWAY */
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  ],
+"layer": "top",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"custom/cava_mviz",
+	"custom/separator#blank",
+	"custom/separator#line",
+	"sway/window",
+	],
+
+"modules-center": [
+    "sway/workspaces",
+	],
+
+"modules-right": [
+	"tray",
+	"custom/separator#line",
+	"custom/swaync",
+	"custom/separator#line",
+	"network",
+	"custom/separator#dot-line",
+	"disk",
+	"custom/separator#dot-line",
+	"pulseaudio#1",
+	"custom/separator#dot-line",
+	"clock#5",
+	"custom/separator#line",
+	"custom/power",
+	],
+}

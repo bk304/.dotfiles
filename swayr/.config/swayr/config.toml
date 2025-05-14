@@ -10,6 +10,8 @@ args = [
     "--parse-search",
     "--height=40%",
     "--prompt={prompt}",
+    "--conf=.config/wofi/config-catppuccin",
+    "--style=.config/wofi/style/catppuccin-mocha.css",
 ]
 
 [format]

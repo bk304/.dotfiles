@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "$HOME/.config/hypr/scripts/LockScreen.sh",
+    "action" : "swaylock -C .config/swaylock/config",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -18,7 +18,7 @@
 }
 {
     "label" : "logout",
-    "action" : "hyprctl dispatch exit & swaymsg exit",
+    "action" : "swaymsg exit",
     "text" : "Logout",
     "keybind" : "e"
 }

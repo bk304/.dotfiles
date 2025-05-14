@@ -1,6 +1,11 @@
 # CONFIG FILE
 
+# Colors Theme
+include ./themes/catppuccin-mocha
+
 include ./variables.conf
+
+include ./workspace.conf
 
 include ./visuals.conf
 
@@ -11,8 +16,6 @@ include ./input.conf
 include ./keybinds.conf
 
 include ./statusbar.conf
-
-include ./workspace.conf
 
 include ./startup.conf
 

@@ -1,3 +1,5 @@
+@import "catppuccin-mocha"
+
 configuration{
     modi: "run,drun,window";
     lines: 6;
@@ -100,7 +102,7 @@ button {
     padding: 10px;
     background-color: @background;
     text-color: @foreground;
-    vertical-align: 0.5; 
+    vertical-align: 0.5;
     horizontal-align: 0.5;
 }
 
