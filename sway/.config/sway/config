@@ -1,7 +1,7 @@
 # CONFIG FILE
 
 # Colors Theme
-include ./themes/catppuccin-mocha
+include ./themes/catppuccin-macchiato
 
 include ./variables.conf
 

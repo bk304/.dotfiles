@@ -11,7 +11,7 @@ args = [
     "--height=40%",
     "--prompt={prompt}",
     "--conf=.config/wofi/config-catppuccin",
-    "--style=.config/wofi/style/catppuccin-mocha.css",
+    "--style=.config/wofi/style/catppuccin-mocchiato.css",
 ]
 
 [format]
