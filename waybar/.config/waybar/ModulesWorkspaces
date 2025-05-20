@@ -20,6 +20,16 @@
 	"sort-by-number": true
 },
 
+"niri/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+    "discord": "",
+    "web": "󰈹",
+    "game": "",
+    "niri_config": ""
+    },
+},
+
 // CIRCLES Style
 "hyprland/workspaces": {
 	"active-only": false,

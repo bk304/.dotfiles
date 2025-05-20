@@ -22,11 +22,11 @@
 	"custom/cava_mviz",
 	"custom/separator#blank",
 	"custom/separator#line",
-	"sway/window",
+	"niri/window",
 	],
 
 "modules-center": [
-    "sway/workspaces",
+    "niri/workspaces",
 	],
 
 "modules-right": [
