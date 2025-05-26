@@ -21,12 +21,13 @@
 },
 
 "niri/workspaces": {
-    "format": "{icon}",
+    "format": "{index}{icon}",
     "format-icons": {
     "discord": "",
     "web": "󰈹",
     "game": "",
-    "niri_config": ""
+    "niri_config": "",
+    "default": ""
     },
 },
 
