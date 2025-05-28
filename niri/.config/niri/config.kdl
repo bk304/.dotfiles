@@ -216,6 +216,8 @@ binds {
 
     Mod+Q { close-window; }
 
+    Mod+T { toggle-column-tabbed-display; }
+
     Mod+Left  { focus-column-left; }
     Mod+H     { focus-column-left; }
     Mod+Down  { focus-window-down; }
@@ -335,9 +337,9 @@ binds {
     Mod+BracketRight { consume-or-expel-window-right; }
 
     // Consume one window from the right to the bottom of the focused column.
-    Mod+Comma  { consume-window-into-column; }
+    Mod+Period  { consume-window-into-column; }
     // Expel the bottom window from the focused column to the right.
-    Mod+Period { expel-window-from-column; }
+    Mod+Comma { expel-window-from-column; }
 
     Mod+R { switch-preset-column-width; }
     Mod+Shift+R { switch-preset-window-height; }

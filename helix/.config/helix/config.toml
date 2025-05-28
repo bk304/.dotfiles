@@ -3,6 +3,12 @@ theme = "catppuccin_macchiato"
 [editor]
 line-number = "relative"
 mouse = false
+color-modes = true
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,3 +17,6 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.soft-wrap]
+enable = true

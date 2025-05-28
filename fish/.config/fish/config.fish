@@ -10,4 +10,15 @@ set SSH_AUTH_SOCK $XDG_RUNTIME_DIR/ssh-agent.socket
 eval (ssh-agent -c) >/dev/null
 ssh-add ~/.ssh/k304_rsa >/dev/null 2>&1
 
-alias h helix
+function h
+    set dir (pwd)
+    set args .
+    if test (count $argv) -ge 1
+        if test -d $argv[1]
+            set dir $argv[1]
+        end
+        set args $argv[1..]
+    end
+
+    kitty --detach --working-directory=$dir helix $args
+end
